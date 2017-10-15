@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD_ADT7470_QSOP
+D Temperature Sensor Hub and Fan Controller
+K fan control
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADT7470.pdf
+$ENDCMP
+#
+$CMP Jumper_NO_Small
+D Jumper, normally open
+K jumper link bridge
+$ENDCMP
+#
+$CMP Screw_Terminal_1x02
+D 2-pin screw terminal connector
+K screw terminal block
+$ENDCMP
+#
+$CMP TI_INA219_SOIC
+D Bidirectional Current/Power Monitor With I2C
+K current monitor
+F http://www.ti.com/lit/ds/symlink/ina219.pdf
+$ENDCMP
+#
+#End Doc Library
