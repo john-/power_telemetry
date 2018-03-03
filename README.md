@@ -5,6 +5,7 @@ Device that converts 12v to 5v, measures power/other things, and controls 4-wire
 **Fusing**
 
 Main fuse sizing:  8A = 12V out (5A) + 5V out (1.5A) + 5V out (1.5A)
+Alternate:         4A = 12V out (2A) + 5V out (   ???
 
 The 3rd 5V out is reserved (backup).
 
@@ -12,7 +13,7 @@ The 3rd 5V out is reserved (backup).
 
 _Calibration_
 
-V bus bax   = 16V
+V bus max   = 16V
 V shunt max = 320㎷ (PGA = ÷8)
 R shunt     = 0.04Ω
 
@@ -33,3 +34,9 @@ As filtering may not be needed initial implementation will be 0Ω resistors (R6
 _Bypass Capacitors_
 
 Values are taken from datasheet.  Ceramic type chosen from arbitrary page.
+
+**Questions**
+
+- Vias to ground plane:  Run a short wire off the pad then insert a via?   Is this the best way of doing it?   It doesn't seem like via can be at the ground pad itself.
+- flyback diodes D1/D2:  Did I do that correctly?
+- OK to run trace between pads of a component like a resistor?
