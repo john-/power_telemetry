@@ -641,9 +641,9 @@ $EndComp
 Wire Wire Line
 	3750 5750 3600 5750
 Text Label 3750 4750 0    60   ~ 0
-VCC
+VCCB
 Text Label 4800 4750 0    60   ~ 0
-VCC
+VCCA
 $Comp
 L GND #PWR024
 U 1 1 59E178DF
@@ -1096,8 +1096,6 @@ Wire Wire Line
 	3750 4650 3750 5750
 Wire Wire Line
 	4800 5750 4650 5750
-Text Label 5900 4750 0    60   ~ 0
-VCC
 Wire Wire Line
 	3550 4650 3550 5050
 Wire Wire Line
