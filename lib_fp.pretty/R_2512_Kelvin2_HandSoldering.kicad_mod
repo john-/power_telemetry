@@ -1,4 +1,4 @@
-(module R_2512_Kelvin2_HandSoldering (layer F.Cu) (tedit 5BC128AE)
+(module R_2512_Kelvin2_HandSoldering (layer F.Cu) (tedit 5BC13A62)
   (descr "Resistor SMD 2512, hand soldering")
   (tags "resistor 2512")
   (attr smd)
@@ -25,8 +25,8 @@
   (pad 2 smd rect (at 3.75 -1.05) (size 2.7 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -3.75 1.05) (size 2.7 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -3.75 -1.05) (size 2.7 1.1) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 3 1.6) (size 0.25 1) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -3 1.6) (size 0.25 1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 3 1.8) (size 0.25 1) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -3 1.8) (size 0.25 1) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_2512.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
