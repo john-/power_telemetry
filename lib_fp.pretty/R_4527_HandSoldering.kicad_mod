@@ -1,4 +1,4 @@
-(module R_4527_HandSoldering (layer F.Cu) (tedit 59D92C71)
+(module R_4527_HandSoldering (layer F.Cu) (tedit 5BC1FCE8)
   (descr "Resistor SMD 4527, hand soldering, Vishay (see WSR5)")
   (tags "resistor 4527")
   (attr smd)
@@ -21,8 +21,8 @@
   (fp_line (start -6.795 -3.74) (end -6.795 3.74) (layer F.CrtYd) (width 0.05))
   (fp_line (start 6.795 3.74) (end 6.795 -3.74) (layer F.CrtYd) (width 0.05))
   (fp_line (start 6.795 3.74) (end -6.795 3.74) (layer F.CrtYd) (width 0.05))
-  (pad 2 smd rect (at 8.29 3.75) (size 0.51 2) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -8.29 3.75) (size 0.51 2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 6.29 3.25) (size 0.51 1) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -6.29 3.25) (size 0.51 1) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -5.575 0) (size 5.94 5.84) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 5.575 0) (size 5.94 5.84) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_2816.wrl
