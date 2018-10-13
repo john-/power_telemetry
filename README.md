@@ -10,9 +10,9 @@ _Calibration_
 
 V bus max   = 16V
 V shunt max = 320㎷ (PGA = ÷8)
-R shunt     = 0.04Ω
+R shunt     = 0.1Ω
 
-I max possible = V shunt max ÷ R shunt = 8A
+I max possible = V shunt max ÷ R shunt = 3.2A
 
 I max expected = 3A (this needs to be revisited with better understanding of what it represents)
 
