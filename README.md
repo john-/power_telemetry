@@ -30,3 +30,8 @@ _Bypass Capacitors_
 
 Values are taken from datasheet.  Ceramic type chosen from arbitrary page.
 
+Design mistakes:
+
+- I did not include any temp sensors! Now when I read the data sheet for the ADT7470 it makes it clear it is can't do standalone temperature measuring. I previously assumed it had one built-in temperature sensor. Anyway, I will use manual control of the ADT7470 based on temperature of SBCs (there will be 2 Odroid C2s in the case). I may add an external temperature sensor for the temperature sensor. Previously I have used 1 wire sensor. I need to confirm I can use 1 wire and I2C at same time on C2.
+- The circuit puts out 5V I2C and the C2 max input voltage 3.3V. I happen to have a level shifter to get things working. I should have had the circuit output 3.3V I2C.
+- I am pretty sure I should have included GND with the SDA/SCL lines. Since I had to use the level shifter I wound up pulling in 5V/GND from elsewhere in the circuit.
