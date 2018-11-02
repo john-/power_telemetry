@@ -2,7 +2,7 @@ Device that converts 12v to 5v, measures power/other things, and controls 4-wire
 
 # DESIGN NOTES
 
-The 3rd 5V out is reserved (backup).
+The 3rd 5V converter powers ICs and is a backup
 
 **Power Sensing**
 
@@ -30,13 +30,3 @@ _Bypass Capacitors_
 
 Values are taken from datasheet.  Ceramic type chosen from arbitrary page.
 
-_Trace Widths_
-
-8A 5mm main in/out
-4A 2mm feed 2 converters
-2A 1mm  feed 1 converter
-
-**Questions**
-
-- Vias to ground plane:  Run a short wire off the pad then insert a via?   Is this the best way of doing it?   It doesn't seem like via can be at the ground pad itself.
-- OK to run trace between pads of a component like a resistor?
